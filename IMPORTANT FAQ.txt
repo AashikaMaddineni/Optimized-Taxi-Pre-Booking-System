@@ -1,0 +1,29 @@
+IMPORTANT FAQ
+
+what s the objective of ur project?
+Taxis play an important role in modern public transportation. The main objective of this project is to devleop an algorithm to cover maximum rides by minimum use of taxis which has many benefits.
+
+Give brief about ur project?
+Taxi is an important transportation mode between public and private transportations, delivering millions of passengers to different locations in urban areas. However, taxi demands are usually higher than the number of taxis in peak hours of major cities, resulting in many people spending a long time on roadsides before getting a taxi. Increasing the number of taxis seems an obvious solution  but not good for envirnonment. so we devloped an algorithm using the concepts of graph coloring, dfs travelsal of graphs to optimally pre book taxis for  the rides so that maximum no. of rides can be covered with minimum taxis 
+ 
+
+What is the new thing u have done or how it is different from remaining algorithm?
+actually , when we saw the existing system it is like if we prebook a ride ...at time of departure ,it will find a nearby taxi and assign it to the user ...but we have devloped an algorithm in which if we pre book the ride it will assign taxi instantly and givg details of the taxi driver and if we have 1000s of rides it will handle how same taxi can be repeatedly used and hence suing minimum taxi to cover maximum rides
+
+What is the benefit/conclusion of ur project.
+We can conclude from our project that it will increase efficiency of our existing system, which will decrease company’s cost and result in less use of taxis and result in less environmental pollution. More economical, very environmentally friendly.
+
+How a taxi dropping someone at 10 am can go to somwhere to pickup at 10 am?
+we have considered an ideal case here.  but in real it cannot reach instantly so we have to assign which one is free for long time.
+
+what are the demrits /room for improvement in ur algorithm?/can companies implement it directly?
+it does not consider if a schduled taxi is far from the pickup location like 10 km so it would be better to assign nearby taxi to prevent money wastage. ;solution for this is we have to develop another algorithm which will keep that schduled taxi nearby place at the time  where it has to pickup the user.
+
+key points
+** we have developed an algorithm for an existing system to improve it can not replace the existing system
+** By using the existing algorithm and concepts ,we developed a new algorithm and it is not present in internet.
+
+A greedy algorithm is an algorithmic strategy that makes the best optimal choice at each small stage with the goal of this eventually leading to a globally optimum solution. This means that the algorithm picks the best solution at the moment without regard for consequences.
+
+ 
+
